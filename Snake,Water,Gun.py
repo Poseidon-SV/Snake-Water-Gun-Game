@@ -1,27 +1,5 @@
 # snake water gun
 import random
-'''
-ran=random.randint(1,2)
-ran2= random.randint(3,4)
-ranT= random.randint(ran,ran2)
-print(ranT)'''
-'''comp=random.randint(1,3)
-
-print("Computer's turn to choose from Sanke(S), Water(W) and Gun(G) ")
-Player=input("Player Turn =) Choose Sanke(S), Water(W) and Gun(G): ")
-
-S=1
-W=2
-G=3
-print(comp)
-if comp==Player:
-    print("It's a tie!!")
-elif (comp==S and Player==G, comp==G and Player==W, comp==W and Player==S):
-    print("    Player Win's !!")
-else :
-    print("    Player lost!!!")'''
-
-
 
 def gamewin(comp,player):
     if comp==player:
